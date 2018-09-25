@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const fs = require('fs');
 const APP = require('./package.json');
-const token = 'BOT_TOKEN';
+
 
 client.on('ready', () => {
   console.log('I am ready!')
@@ -248,4 +248,4 @@ async function handleVideo(video, message, voiceChannel, playlist = false) {
 	serverQueue.textChannel.send(`🎶 Start playing: **${song.title}**`);
 }
 });
-client.login('BOT_TOKEN');
+client.login(process.env.BOT_TOKEN);
