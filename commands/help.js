@@ -1,0 +1,25 @@
+const Discord = require("discord.js");
+
+module.exports.run = async (client, message, args) => {
+let infoEmbed = new Discord.RichEmbed()
+.setTitle("List of all commands")
+.setColor("#880000")
+.addField("weather", "Show's you the weather of chosen place")
+.addField("say", "Says your message from the bot")
+.addField("membercount", "Shows member count of current server.")
+.addField("ping", "Show's the bot's ping.")
+.addField("roast", "roasts a user")
+.addField("dadjoke", "Tells a Dad joke XD")
+.addField("poll", "Sets up a poll with provided question")
+.addField("8ball", "Ask the Magic 8Ball a question!")
+.addField("kick", "Kicks a user from the server!")
+.addField("ban", "Bans a user from the current server")
+.addField("purge", "Deletes messages from the current text channel.")
+.addField("Play (title of song or video)", "Starts playing the selected video/song in the voice channel you are in")
+.addField("Pause", "Pauses the currently playing song")
+.addField("Skip", "Skip's to the next song in queue")
+.addField("Resume", "Play's the paused song")
+.addField("np", "Show's the song currently playing")
+.setFooter("Created By @Techmonster20#4355 ©2018 Forrum")
+message.channel.send(infoEmbed)
+}
