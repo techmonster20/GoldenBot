@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const fs = require('fs');
 const APP = require('./package.json');
-const token = 'NDU2NDg0MzUyMDIxMjMzNjY0.DgLWaA.LDDSUGcyqkP2FyRvPLhNOspAH1A';
+const token = 'bot.token';
 
 client.on('ready', () => {
   console.log('I am ready!')
@@ -248,4 +248,4 @@ async function handleVideo(video, message, voiceChannel, playlist = false) {
 	serverQueue.textChannel.send(`🎶 Start playing: **${song.title}**`);
 }
 });
-client.login('NDU2NDg0MzUyMDIxMjMzNjY0.DgLWaA.LDDSUGcyqkP2FyRvPLhNOspAH1A');
+client.login('bot.token');
