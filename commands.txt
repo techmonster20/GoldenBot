@@ -1,0 +1,31 @@
+MUSIC COMMANDS
+*join : "Join Voice channel of msg sender"
+*add : "Add a valid youtube link to the queue"
+*queue : "Shows the current queue, up to 15 songs shown."
+*play : "Play the music queue if already joined to a voice channel"
+
+THE FOLLOWING COMMANDS ONLY FUNCTION WHILE THE PLAY COMMAND IS RUNNING:
+*pause : "pauses the music"
+*resume : "resumes the music"
+*skip : "skips the playing song"
+*time : "Shows the playtime of the song."
+volume+(+++) : "increases volume by 2%/+"
+volume-(---) : "decreases volume by 2%/-"
+
+OTHER COMMANDS
+*help : Shows you this list.
+*ping : Pings my servers.
+*website : shows the site for this server.
+*apply for staff : shows link to apply for staff rank.
+*contact : shows dev contact info. 
+
+MORE COMMANDS ON THE WAY
+
+Created by @Techmonster20 2018
+
+
+
+
+
+
+tokens.prefix + 'join : "Join Voice channel of msg sender"',	tokens.prefix + 'add : "Add a valid youtube link to the queue"', tokens.prefix + 'queue : "Shows the current queue, up to 15 songs shown."', tokens.prefix + 'play : "Play the music queue if already joined to a voice channel"', '', 'the following commands only function while the play command is running:'.toUpperCase(), tokens.prefix + 'pause : "pauses the music"',	tokens.prefix + 'resume : "resumes the music"', tokens.prefix + 'skip : "skips the playing song"', tokens.prefix + 'time : "Shows the playtime of the song."',	'volume+(+++) : "increases volume by 2%/+"',	'volume-(---) : "decreases volume by 2%/-"',	 tokens.prefix + 'website  : "Shows server sites"', tokens.prefix + 'about : "Tells information about me!"

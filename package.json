@@ -1,0 +1,39 @@
+{
+  "name": "rolley-djs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rolley.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  },
+  "dependencies": {
+    "canvas-constructor": "^1.0.1",
+    "discord.js": "^11.1.0",
+    "express": "^4.15.4",
+    "fortnite": "^4.1.1",
+    "fs": "0.0.1-security",
+    "google-translate-api": "^2.3.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "klasa": "^0.4.0",
+    "node-opus": "^0.3.0",
+    "os": "^0.1.1",
+    "pg": "^7.1.2",
+    "pg-format": "^1.0.4",
+    "quick.db": "^6.3.1",
+    "quick.hook": "^1.4.2",
+    "simple-youtube-api": "^5.0.2",
+    "superagent": "^3.5.2",
+    "weather-js": "^2.0.0",
+    "winston": "^2.3.1",
+    "ytdl-core": "^0.20.4"
+  }
+}
