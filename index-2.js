@@ -6,7 +6,7 @@ const APP = require('./package.json');
 
 
 client.on('ready', () => {
-  console.log('I am ready!')
+  console.log('I am ready')
 client.user.setStatus('Online')
 console.log('Status set to Online')
 client.user.setActivity('*help | Developed by Techmonster')
