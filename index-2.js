@@ -44,7 +44,7 @@ client.on("message", message => {
   }
 });
 
-// Create new folder named "commands" and add files for each command, example for command google, create a file named "google.js", must be in the folder "commands". 
+// Create new folder named "commands" and add files for each command, example for command google, create a file named "google.js", must be in the folder "commands".
 // each command file must have module.exports.run = (client, message, args) => { // code here }; and //
 
 //exports.conf = { aliases: [] }; exports.help = { name: 'tag', description: '', usage: 'tag <name>'};
@@ -181,7 +181,7 @@ break;
 			return message.channel.send('▶ Resumed the music for you!');
 		}
 		return message.channel.send('There is nothing playing.');
-	
+
 
 	return undefined;
 break;
@@ -248,4 +248,4 @@ async function handleVideo(video, message, voiceChannel, playlist = false) {
 	serverQueue.textChannel.send(`🎶 Start playing: **${song.title}**`);
 }
 });
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.TOKEN);
