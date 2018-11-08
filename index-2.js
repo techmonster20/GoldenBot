@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const fs = require('fs');
 const APP = require('./package.json');
-
+var token = ('process.env.BOT_TOKEN')
 
 client.on('ready', () => {
   console.log('I am ready')
