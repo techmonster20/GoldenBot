@@ -1,1 +1,1 @@
-worker1: node index-2.js
+worker: node index-2.js
