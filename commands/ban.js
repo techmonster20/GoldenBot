@@ -2,7 +2,7 @@ const Discord = require("discord.js"); // Discord Module Required
 exports.run = async (client, message, args) => { // if your cmd handler has different things than client, message etc change it
 
   let logs = message.guild.channels.find("name", "logs");
-  if(!logs) return message.channel.send("Could not find a logs channel. Make a Voice Channel Called logs);
+  if(!logs) return message.channel.send("Could not find a logs channel. Make a Voice Channel called logs");
 
   let user = message.mentions.users.first();
   if(!user) return message.reply("Please mention a user");
