@@ -69,5 +69,5 @@ client.on("message", message => {
 let prefix = `*`;
 
 
-});
+
 client.login(process.env.BOT_TOKEN);
