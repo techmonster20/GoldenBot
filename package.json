@@ -15,7 +15,7 @@
   "dependencies": {
     "canvas-constructor": "^1.0.1",
     "discord.js": "^11.1.0",
-    "express": "^4.15.4",
+    "express": "^4.17.3",
     "fortnite": "^4.1.1",
     "fs": "0.0.1-security",
     "google-translate-api": "^2.3.0",
